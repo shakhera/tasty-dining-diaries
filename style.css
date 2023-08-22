@@ -48,3 +48,57 @@ body {
 #best-five {
     color: rgb(212, 29, 29);
 }
+
+.main-body {
+    display: flex;
+}
+
+.card {
+    background-color: #1a1919;
+    /* border-radius: 10px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    color: #fff;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+.card ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 70px;
+    text-align: center;
+    color: #a89e9e;
+}
+
+.card button {
+    background-color: #272aa5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin: 5px 20px 20px 20px;
+    transition: background-color 0.3s;
+}
