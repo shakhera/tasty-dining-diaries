@@ -53,6 +53,13 @@ body {
     display: flex;
 }
 
+/* .middle-part {
+    display: flex;
+}
+.last-part{
+
+} */
+
 .card {
     background-color: #1a1919;
     /* border-radius: 10px; */
@@ -101,4 +108,34 @@ body {
     cursor: pointer;
     margin: 5px 20px 20px 20px;
     transition: background-color 0.3s;
+}
+
+#budget-calculation {
+    height: 400px;
+
+}
+
+.budget-input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.budget-input-field {
+    margin-left: 20px;
+    background-color: #242121;
+    border: 2px rgb(255, 255, 255) solid;
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.stuf {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.stuf-amount {
+    padding: 2px;
+    padding-right: 15%;
+    padding-left: 15%;
 }
